@@ -1,0 +1,26 @@
+.game-row {
+  row-gap: 20px; /* Отступ между строками */
+}
+
+.game-col {
+  margin-bottom: 20px; /* Отступ между карточками */
+}
+
+.game-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto; /* Автоматическая высота для каждой карточки */
+}
+
+.game-card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.game-card-img {
+  height: 200px; /* Фиксированная высота для изображения */
+  object-fit: cover;
+}

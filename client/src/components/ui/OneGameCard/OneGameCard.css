@@ -1,0 +1,58 @@
+.game-card {
+  border: none;
+  border-radius: 10px; /* Мягкие углы для современного вида */
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.game-card:hover {
+  transform: scale(1.05); /* Эффект при наведении */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.game-card-img {
+  width: 100%; /* Изображение занимает всю ширину карточки */
+  height: 200px; /* Фиксированная высота для всех карточек */
+  object-fit: cover; /* Сохранение пропорций изображения */
+}
+
+.game-card-body {
+  background-color: #f8f9fa; /* Светлый фон для тела карточки */
+  padding: 20px;
+  text-align: center; /* Центрируем текст */
+}
+
+.game-card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.game-card-text {
+  margin-bottom: 20px;
+  color: #6c757d; /* Серый цвет для текста */
+}
+
+.btn {
+  margin: 5px; /* Отступы между кнопками */
+  /* width: 100px; Фиксированная ширина кнопок */
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-primary:hover,
+.btn-danger:hover {
+  filter: brightness(85%); /* Эффект при наведении на кнопки */
+}
+
+
+  
